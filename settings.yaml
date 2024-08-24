@@ -1,0 +1,12 @@
+# The ID of the dataset you created above.
+dataset: test-dataset
+
+text_completion:
+  # How the fields of the JSON dataset should be formatted into the input text.
+  input_template: "### GIVEN THE IMAGE: {image}  ### EXTRACT NAME  ### RESPONSE IS: "
+
+  # How the fields of the JSON dataset should be formatted into the output text.
+  output_template: "NAME: {name}, DATE OF BIRTH: {date_of_birth}, ADDRESS: {address}, IDENTIFICATION NUMBER: {identification_number}"
+
+# The Hugging Face model name of the base model.
+base_model: accounts/teofeliu-50408b/models/phi-3p5-vision
