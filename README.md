@@ -1,1 +1,1 @@
-# foreworks-ocr
+# fireworks-ocr
